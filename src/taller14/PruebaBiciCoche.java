@@ -13,10 +13,15 @@ public class PruebaBiciCoche {
     public static void main(String[] args) {
         
         Vehiculo coche = new Coche("Deportivo");
-        Vehiculo bicicleta = new Bicicleta("Mediana"); 
+        Vehiculo bicicleta = new Bicicleta("Mediana");
+        Vehiculo coche2 = new Coche("Clasico");
         
         System.out.println("Vehiculos que se moveran:");
         coche.mover();
         bicicleta.mover();
+        
+        //error: no se puede invocar el método mostrarVelocidad()porque no está definido en Vehículo.
+        coche2.mostrarVelocidad();
+        
     }
 }

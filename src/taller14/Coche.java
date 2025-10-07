@@ -20,4 +20,7 @@ public class Coche extends Vehiculo {
     public void mover(){
         System.out.println("El coche" +tipo+ "se esta moviendo a la derecha.");
     }   
+    public void mostrarVelocidad(){
+        System.out.println("Velocidad del coche" +tipo+ "es la siguiente:");
+    }
 }
