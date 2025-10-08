@@ -18,6 +18,6 @@ public class Persona {
         this.edad = edad;
     } 
     public void presentarse(){
-        System.out.println("Como soy una persona mi nombre es: " +nombre+ "y tengo" +edad+ "años.");  
+        System.out.println("Soy una persona, tengo nombre y edad");  
     }
 }
